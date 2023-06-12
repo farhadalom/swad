@@ -1,0 +1,189 @@
+ 
+.about{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/about2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .about::after{
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     /* background-color: rgba(8, 95, 244, 0.5); */
+     background-color:  rgba(0,0,0,.4);
+     z-index: -1;
+   }
+   .about h1{
+     color: #fff;
+     font-size: 3rem;
+     font-weight: bold;
+     letter-spacing: 2px;
+   }
+   .about  span{
+     font-size: 2rem;
+     margin-left: 2px;
+     color: rgb(3, 230, 26);
+     font-weight: bold;
+   }
+   .about a{
+     font-size: 2rem;
+     margin-left: 2px;
+     color: rgb(5, 227, 53);
+     font-weight: bold;
+   }
+   .about a i{
+     margin-right: 1rem;
+   }
+   .about-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 3rem;
+   }
+   .about-container .about-video{
+     flex: 1 1 35rem;
+     position: relative;
+   }
+   .about-container .about-video video{
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     
+   }
+   
+   .about-container .about-content{
+     flex: 1 1 41rem;
+      
+   }
+   .about-container .about-content p{
+     font-size: 1.5rem;
+   }
+   .about-container .about-content h2{
+     font-size: 2.5rem !important;
+     color: var(--pero) !important;
+   }
+    
+   .about-container .about-details p{
+     font-size: 1.6rem;
+     color: #fff;
+   }
+   .about-container .about-content .item{
+     display: flex;
+     align-items: center;
+   }
+   .about-container .about-content .item i{
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right:1rem ;
+    background-color:var(--pero);
+   }
+   .about-container .about-content .item .item-details h2 {
+      font-size: 3rem;
+      padding-top: .5rem;
+      color: #161201;
+      font-weight: bold;
+   }
+   .about-container .about-content .item .item-details p{
+     font-size: 1.5rem;
+   }
+ 
+ .why-best .best-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+ }
+ .why-best .best-container .best-content{
+     flex: 1 1 60rem;
+ }
+ .why-best .best-container .best-content h3{
+  color: #333;
+  font-size: 2rem;
+ }
+ .why-best .best-container .best-content .best-content-container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(30rem , 1fr));
+     gap: 6rem;
+      
+ }
+ .why-best .best-container .best-content .best-content-container .best-box{
+       box-shadow: 0rem .5rem 1.5rem rgba(0, 0, 0, 0.2);
+      padding: 2rem 4rem;
+      text-align: center;   
+      position: relative;
+      cursor: pointer;
+      border-radius: 20px;
+      background-color: #fff;
+     
+ }
+  .sub-title{
+    color: #fff !important;
+  }
+  
+ .why-best .best-container .best-content .best-content-container .best-box .image{
+     position: absolute;
+     top: 4rem;
+     left: -2rem;
+     width: 5rem;
+     height: 5rem;
+     line-height: 5rem;
+     background-color: #0620c9;
+     border-radius: 50%;
+     text-align: center;
+     
+ }
+ .why-best .best-container .best-content .best-content-container .best-box .image img{
+     width: 3rem;
+      height: 3rem;
+      object-fit: cover;
+       
+ 
+ }
+ .why-best .best-container .best-content p{
+     font-size: 1.7rem;
+     padding: .5rem 0;
+     color: #100d0d;
+     font-weight:500;
+ }
+ .why-best .best-container .best-img{
+     flex: 1 1 30rem;
+     text-align: right;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+ }
+ .why-best .best-container .best-img img{
+      width: 15rem;
+      flex: 1 1 16rem;
+      object-fit: cover;
+ }
+ .why-best .headings{
+     padding: 1rem 0;
+ }
+ .why-best .headings span{
+     font-size: 2rem;
+     color:var(--pero);
+     padding-bottom:.5rem ;
+ }
+ .why-best .headings h3{
+     font-size: 3rem;
+      color: #fff;
+      font-weight: bold;
+ }
+ 
+ 
+ 

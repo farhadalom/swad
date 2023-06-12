@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Payment</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/about.css">
+   <link rel="stylesheet" href="./assets/css/blog.css">
+   <link rel="stylesheet" href="./assets/css/payment.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
+ 
+
+</head>
+<body>
+   
+  <div class="header">
+    <div class="logo">
+        <div class="logo-image">
+          <img src="./assets/images/swad.jpg" alt="image">
+        </div>
+      The Swad</div>
+     <ul class="navbar">
+        
+       <li><a href="index.html">Home</a></li>
+        <li> <a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="chef.html">Chef</a></li>
+        <li><a href="blogs.html">Blog</a></li>
+       
+        
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Pages
+             </a>
+             <ul class="dropdown-menu mt-4" aria-labelledby="navbarScrollingDropdown">
+               <li><a class="dropdown-item" href="menudetails.html">Menu Details</a></li>
+               <li><hr class="dropdown-divider"></li>
+
+               <li><a class="dropdown-item" href="blogdetails.html">Blog Details</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="cart.html">Cart View</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+               <li><hr class="dropdown-divider"></li>
+
+               <li><a class="dropdown-item" href="payment.html">Payment</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="404error.html">404/Error</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+               
+             </ul>
+           </li>
+           <li><a href="contact.html">Contact</a></li>
+        
+     </ul>
+     <div class="right">
+       
+      <div class="icons">
+         
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i> </a>
+        <i class="fas fa-moon" onclick="toggleMode()"></i>
+        <a href="profile.html"> <i class="fas fa-user" onclick="toggleMenu()"></i></a>
+         
+     </div>
+     </div>
+     <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+
+
+   <div class="main" id="payment">
+    <div class="about">
+        <div class="container">
+            <div class="row">
+             <div class="col-md-12 text-center">
+                 <h1>Payment</h1>
+                 <div class="back-home">
+                    <a href="index.html"> <i class="fas fa-home"></i><span>Home - </span></a>
+                    <span>Payment</span>
+                 </div>
+             </div>
+            </div>
+        </div>
+     </div>
+   </div>
+
+  <!-- Main Section start -->
+
+
+
+  <div class="container my-5">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="payment-container">
+                
+                
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                     <div class="payment shadow1"> 
+                          <img src="./assets/images/paypal.png" alt="image">
+                    </div>
+                    </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                        <div class="payment shadow1"> 
+                             <img src="./assets/images/MasterCard2.png" alt="image">
+                       </div>
+                       </a>
+                       <a href="#"data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                        <div class="payment shadow1"> 
+                             <img src="./assets/images/visa.jpg" alt="image">
+                       </div>
+                       </a>
+                       <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                        <div class="payment shadow1"> 
+                             <img src="./assets/images/jcb.png" alt="image">
+                       </div>
+                       </a>
+                       <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                        <div class="payment shadow1"> 
+                             <img src="./assets/images/Discover-Logo.jpg" alt="image">
+                       </div>
+                       </a>
+                       <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                           <div class="payment shadow1"> 
+                                <img src="./assets/images/skrill.png" alt="image">
+                          </div>
+                          </a>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                           <div class="payment"> 
+                                <img src="./assets/images/paypal.png" alt="image">
+                          </div>
+                          </a>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                           <div class="payment shadow1"> 
+                                <img src="./assets/images/paypal.png" alt="image">
+                          </div>
+                          </a>
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                            <div class="payment shadow1"> 
+                                 <img src="./assets/images/paypal.png" alt="image">
+                           </div>
+                           </a>
+                           <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                               <div class="payment shadow1"> 
+                                    <img src="./assets/images/paypal.png" alt="image">
+                              </div>
+                              </a>
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                               <div class="payment shadow1"> 
+                                    <img src="./assets/images/paypal.png" alt="image">
+                              </div>
+                              </a>
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                               <div class="payment shadow1"> 
+                                    <img src="./assets/images/paypal.png" alt="image">
+                              </div>
+                              </a>
+                
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="card shadow1 p-4 bg-dark">
+                <div class="card-body">
+                    <h3>Total Cart(7)</h3>
+                    <hr>
+                    <div class="cart-price">
+                        <div class="cart-name p-size">Subtotal:</div>
+                        <div class="price p-size">$124.00</div>
+                    </div>
+                    <div class="cart-price">
+                        <div class="cart-name p-size">Delivery:</div>
+                        <div class="price p-size">$12.00</div>
+                    </div>
+                    <div class="cart-price">
+                        <div class="cart-name p-size">Descount:</div>
+                        <div class="price p-size">$10.00</div>
+                    </div>
+                    <hr>
+                    <div class="cart-price">
+                        <div class="cart-name p-size">Total:</div>
+                        <div class="price p-size">$300.00</div>
+                    </div>
+                      <div class="form">
+                        <form class="d-flex">
+                            <input class=" search" type="search" placeholder="Copon Code" aria-label="Search">
+                            <button class="btn4 " type="submit">Apply</button>
+                          </form>
+                      </div>
+                      <a href="#" class="btn1 d-block text-center rounded">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+ 
+ 
+ 
+  <!-- Modal start-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-dark fs-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, tempora cum optio cumque rerum dolor impedit exercitationem? Eveniet suscipit repellat, quae natus hic assumenda.</p>
+                    </div>
+                    
+                    <div class="item">
+                       
+                      <div class="item-details">
+                          <h2 class="text-dark fs-2 fw-bold">Trusted Partner</h2>
+                          <p class="text-dark fs-3">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Minus, Officiis Placeat Iusto Quasi Adipisci Impedit Delectus Beatae Ab Maxime.</p>
+                      </div>
+                      <!-- form start -->
+                          <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="write Something">
+                                </div>
+                                <div class="form-group">
+                                   <textarea  cols="5" rows="5"class="form-control" placeholder="Write Something"></textarea>
+                                </div>
+                                <div class="form-group">
+                                   <select class="form-control">
+                                      <option value="">Select Something</option>
+                                      <option value="">Select Something</option>
+                                      <option value="">Select Something</option>
+                                      <option value="">Select Something</option>
+                                   </select>
+                                </div>
+                            </div>
+                          </div>
+                      <!-- form-end -->
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#"class="btn1" data-bs-dismiss="modal">Close</a>
+          <a href="payment.html"class="btn1">Save changes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- model end -->
+
+<!-- Main Section start -->
+
+ 
+
+
+
+<footer>
+  <div class="footer-container">
+       <div class="footer">
+             <a href="#"class="logo">The Swad</a>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Iure, blanditiis dolorum cum dolor laudantium dolores?</p>
+       </div>
+       <div class="footer">
+        <h3>Social Media</h3>
+           <div class="media">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instragram</a>
+              <a href="#">Linkedin</a>
+           </div>
+       </div>
+       <div class="footer">
+        <div class="location">
+           <a href="#">Dhaka</a>
+           <a href="#">Email:farhad@gmail.com</a>
+           <a href="#">Contact</a>
+           <a href="#">01789095644</a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+<!------scroll top button start------>
+<a href="#payment" class="fas fa-angle-up" id="scroll-top"></a>
+<!------scroll top button end------>
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./assets/js/app.js"></script>
+ 
+</body>
+</html>

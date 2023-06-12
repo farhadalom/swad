@@ -1,0 +1,251 @@
+
+@media (max-width:1408px) {
+    section{
+        padding: 3rem 5%;
+    }
+    .search-main{
+        margin-right: -280px;
+    }
+ }
+@media (max-width:1206px) {
+    section{
+        padding: 3rem 5%;
+    }
+    .search-main{
+        margin-right: -285px;
+    }
+ }
+@media (max-width:1200px) {
+    section{
+        padding: 3rem 2rem;
+    }
+ }
+ 
+
+ @media (max-width:991px) {
+    section{
+        padding: 2rem 2rem;
+    }
+    html{
+        font-size: 55%;
+    }
+    .happy-customer-container .cricle2{
+        width: 15rem;
+        height: 15rem;
+    }
+    .search-main{
+        margin-right: -100px;
+        width: 100%;
+       }
+       .btn5{
+        width: 20%;
+       }
+       .comment-img {
+        width: 16rem;
+        height: 8rem;
+       }
+
+ }
+
+ /* @media (max-width:891px){
+    .search-main{
+        margin-right: -100px;
+        width: 100%;
+       }
+       .btn5{
+        width: 25%;
+       }
+ } */
+ @media (max-width:912px) {
+    .home{
+         display: flex;
+         flex-direction: column;
+         height: auto;
+    }
+ }
+ @media (max-width:820px) {
+    .home{
+         display: flex;
+         flex-direction: column;
+         height: auto;
+    }
+    .search-main{
+        margin-right: -90px;
+        width: 100%;
+       }
+       .btn5{
+        width: 25%;
+       }
+ }
+
+ @media (max-width:768px) {
+    #menu-btn{
+        display: inline-block;
+        color: #fff;
+    }
+    .dropdown-menu{
+        width: 31rem  !important;
+        overflow: scroll !important;
+        height: 70vw !important;
+    }
+    .dropdown-divider{
+      display: none;
+    }
+   .header .navbar{
+    position: absolute;
+    top: 99%;
+    left: -110%;
+    border-top: var(--border);
+    background-color: var(--white);
+    width: 100%;
+    transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+   }
+   .header.active .navbar a{
+    color: #222 !important;
+     
+   }
+   .header.active #menu-btn{
+    color: #222 !important;
+   }
+   .header .navbar.active{
+    left: 0;
+    display: block;
+   }
+   .header .navbar a{
+    display: block !important;
+    margin: 2rem;
+    border-bottom: var(--border);
+    color: black !important;
+    
+   }
+   .banner-section .book-table{
+      width: 100%;
+   }
+   .happy-customer-container .cricle2{
+    width: 12rem;
+    height: 12rem;
+}
+.food-offer img{
+    width: 10rem;
+    position: absolute;
+    top: 7rem;
+    left: 0rem;
+ }
+ .home-content h1{
+    font-size: 4rem;
+ }
+ .home-content p{
+    font-size: 1.5rem;
+ }
+ .home-content{
+   text-align: center;
+   
+ } 
+ .home .tomato {
+    right: 1rem;
+ }
+ .food-offer img{
+    top: 40rem;
+    width: 7rem;
+    left: 4rem;
+ }
+ .search-main{
+    margin-right: -80px;
+    width: 100%;
+   }
+   .btn5{
+    width: 25%;
+   }
+   .comment-img {
+    width: 14rem;
+    height: 8rem;
+   }
+
+ }
+ @media (max-width:450px) { 
+    html{
+        font-size: 50%;
+    }
+    
+    .weekly-offer{
+        flex-direction: column;
+    }
+    .daily-offer{
+        flex-direction: column;
+    } 
+   .home .home-content{
+    padding-top: 3rem;
+   }
+   .search-main{
+    margin-right: -80px;
+    width: 100%;
+   }
+   .btn5{
+    width: 25%;
+   }
+   .sub-menu-wrap{
+    width: 100%;
+  
+    left: 0;
+    right: 0;
+   }
+   .about-container .about-content .item i {
+    font-size: 1.5rem;
+    width: 13rem;
+    height: 4rem;
+}
+.why-best .best-container .best-content .best-content-container .best-box {
+    padding: 2rem 3rem;
+    max-width: 26rem;
+    width: 100%;
+}
+.home .scal{
+    display: none;
+}
+.box{
+    flex-direction: column;
+    text-align: center;
+}
+.box .image {
+    width: 9rem;
+    height: 9rem;
+}
+.tags-container{
+    flex-direction: column;
+    text-align: center;
+}
+.tags-container .tag{
+    margin-top: 1rem;
+}
+.comment-container{
+    flex-direction: column;
+}
+.comment-img {
+    width: 9rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top: 5px solid var(--pero);
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid var(--pero);
+     
+}
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

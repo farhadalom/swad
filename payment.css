@@ -1,0 +1,60 @@
+.form-control{
+    padding: 1rem .5rem !important;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    margin: .5rem 0;
+    outline: none !important;
+}
+ label{
+    font-size: 1.5rem !important;
+    margin: .5rem 0;
+}
+.cart-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.search{
+height: 45px ;
+width: 100% ;
+border: 2px solid  #f28406   ;
+border-radius: 60px ;
+outline: none ;
+margin-right: -129px ;
+font-size: 1.5rem;
+padding: 1.5rem;
+
+}
+.btn4{
+height: 33px ;
+width: 30% ;
+outline: none ;
+background-color:#f28406 !important;
+border: none;
+border-radius: 60px ;
+color: #fff ;
+margin: auto;
+transition: all .5s linear;
+font-size: 1.5rem;
+}
+.btn4:hover{
+    background-color: rgb(41, 12, 231) !important;
+}
+.payment{
+padding: 1rem 2rem;
+cursor: pointer;
+border: 1px solid #f6e20c;
+box-shadow: 0rem .5rem 1.5rem rgba(0,0,0,0.1);
+}
+
+.payment img{
+max-width: 20rem;
+max-height: 10rem;
+width:100%;
+}
+.payment-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(16rem, 1fr));
+gap: 1.5rem;
+}

@@ -1,0 +1,57 @@
+
+.form-control{
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    margin: .5rem 0;
+   
+
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #f28406;
+}
+ label{
+    font-size: 1.5rem !important;
+    margin: .5rem 0;
+}
+.cart-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.search{
+height: 45px ;
+width: 100% ;
+border: 2px solid #f28406;
+border-radius: 60px ;
+outline: none ;
+margin-right: -129px ;
+font-size: 1.5rem;
+padding: 1.5rem;
+
+}
+
+.btn3{
+height: 33px ;
+width: 30% ;
+outline: none ;
+background-color: #f28406 !important;
+border: none;
+border-radius: 60px ;
+color: #fff ;
+margin: auto;
+}
+.check-out{
+display: flex;
+gap: 1.5rem;
+}
+
+.order-place{
+    background-color:rgba(28, 13, 240, 0.1) !important;
+    padding: 3rem;
+    border-radius: 1rem;
+}

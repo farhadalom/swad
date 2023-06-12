@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Menu Details</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/menudetail.css">
+   <link rel="stylesheet" href="./assets/css/about.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
+   
+  
+ 
+
+</head>
+<body>
+<!-- header section start -->
+  
+<div class="header">
+   <div class="logo">
+      
+       <div class="logo-image">
+         <img src="./assets/images/swad.jpg" alt="image">
+       </div>
+      <p> The Swad</p>
+   </div>
+    <ul class="navbar">
+       
+      <li><a href="index.html">Home</a></li>
+       <li> <a href="about.html">About</a></li>
+
+       <li><a href="menu.html">Menu</a></li>
+       <li><a href="chef.html">Chef</a></li>
+       <li><a href="blogs.html">Blog</a></li>
+      
+       
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu mt-4" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="menudetails.html">Menu Details</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="blogdetails.html">Blog Details</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="cart.html">Cart View</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="payment.html">Payment</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="testomonial.html">Testomonial</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="404error.html">404/Error</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+       
+    </ul>
+    <div class="right">
+      
+       <div class="icons">
+         
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i> </a>
+         <i class="fas fa-moon" onclick="toggleMode()"></i>
+         <a href="profile.html"> <i class="fas fa-user" onclick="toggleMenu()"></i></a>
+          
+      </div>
+    </div>
+    <div id="menu-btn" class="fas fa-bars"></div>
+ 
+     
+  </div>
+  
+<!-- header section end -->
+
+
+<!-- Main Section start -->
+<div class="about" id="menudetails">
+    <div class="container">
+        <div class="row">
+         <div class="col-md-12 text-center">
+             <h1>Menu Details</h1>
+             <div class="back-home">
+                <a href="index.html"> <i class="fas fa-home"></i><span>Home - </span></a>
+                <span>Blog</span>
+             </div>
+         </div>
+        </div>
+    </div>
+ </div>
+</div>
+ 
+
+<!-- blogs details start -->
+
+<section class="menu-details">
+  <div class = "card">
+    <!-- card left -->
+    <div class = "product-imgs">
+      <div class = "img-display">
+        <div class = "img-showcase">
+          <img src = "./assets/images/blog-1.jpg" alt = "shoe image">
+          <img src = "./assets/images/blog-2.jpg" alt = "shoe image">
+          <img src = "./assets/images/blog-3.jpg" alt = "shoe image">
+          <img src = "./assets/images/blog-img-4.jpg" alt = "shoe image">
+        </div>
+      </div>
+      <div class = "img-select">
+        <div class = "img-item">
+          <a href = "#" data-id = "1">
+            <img src = "./assets/images/blog-1.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "2">
+            <img src = "./assets/images/blog-2.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "3">
+            <img src = "./assets/images/blog-3.jpg" alt = "shoe image">
+          </a>
+        </div>
+        <div class = "img-item">
+          <a href = "#" data-id = "4">
+            <img src = "./assets/images/blog-1.jpg" alt = "shoe image">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class = "product-content">
+      <h2 class = "product-title">Maxican Pizza Test Better</h2>
+      <div class = "product-rating">
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star"></i>
+        <i class = "fas fa-star-half-alt"></i>
+        <span>4.7(21)</span>
+      </div>
+
+      <div class = "product-price">
+        <p class = "last-price">Old Price: <span>$257.00</span></p>
+        <p class = "new-price">New Price: <span>$249.00 (5%)</span></p>
+      </div>
+
+      <div class = "product-detail">
+        <h3>about this item: </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p> -->
+         
+      </div>
+      
+       
+
+
+       <div class="select-option pt-3">
+        <h3>Select Size</h3>
+         <select class="fs-4 border">
+          <option value="">Food Size</option>
+          <option value="">Large Size ($350)</option>
+          <option value="">Medium Size ($350)</option>
+          <option value="">Small Size ($150)</option>
+         </select>
+      </div>
+
+      <div class="select-option pt-3">
+        <h3>Select (Optional)</h3>
+         <select class="fs-4 border">
+          <option value="">CocaCola</option>
+          <option value="">Seven Up</option>
+         
+         </select>
+      </div>
+       
+
+      <div class = "purchase-info">
+        <input type = "number" min = "0" value = "1">
+        <button type = "button" class = "btn1">
+          Add to Cart <i class = "fas fa-shopping-cart"></i>
+        </button>
+        <button type = "button" class = "btn1">Love</button>
+      </div>
+
+      <div class = "social-links">
+        <p>Share At: </p>
+        <br>
+        <a href = "#">
+          <i class = "fab fa-facebook-f"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-twitter"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-instagram"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-whatsapp"></i>
+        </a>
+        <a href = "#">
+          <i class = "fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br>
+<div class="container">
+    <hr>
+</div>
+<br>
+
+
+ <section class="menu-review">
+       <div class="container">
+         <div class="row ">
+            <div class="col-md-8 shadow1 mt-5 pb-5">
+                 <div class="row">
+                  <div class="col-md-12 box bg-dark">
+                      <div class="image">
+                        <img src="./assets/images/avatar-1.jpg"class="img-fluid " alt="">
+                      </div>
+                      <div class="box-content">
+                          <h2>Michel Holder</h2>
+                          <span>29 Oct 2022</span>
+                          <p>Sure there isn't anything embarrassing hiidden in the middles of text. All erators on the Internet tend to repeat predefined chunks</p>
+                          <div class = "product-rating">
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star"></i>
+                            <i class = "fas fa-star-half-alt"></i>
+                            <span>4.7(21)</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12 box bg-dark">
+                    <div class="image">
+                      <img src="./assets/images/avatar-1.jpg"class="img-fluid " alt="">
+                    </div>
+                    <div class="box-content">
+                        <h2>Michel Holder</h2>
+                        <span>29 Oct 2022</span>
+                        <p>Sure there isn't anything embarrassing hiidden in the middles of text. All erators on the Internet tend to repeat predefined chunks</p>
+                        <div class = "product-rating">
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star"></i>
+                          <i class = "fas fa-star-half-alt"></i>
+                          <span>4.7(21)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 box bg-dark">
+                  <div class="image">
+                    <img src="./assets/images/avatar-1.jpg"class="img-fluid " alt="">
+                  </div>
+                  <div class="box-content">
+                      <h2>Michel Holder</h2>
+                      <span>29 Oct 2022</span>
+                      <p>Sure there isn't anything embarrassing hiidden in the middles of text. All erators on the Internet tend to repeat predefined chunks</p>
+                      <div class = "product-rating">
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star"></i>
+                        <i class = "fas fa-star-half-alt"></i>
+                        <span>4.7(21)</span>
+                      </div>
+                  </div>
+              </div>
+                 </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="fs-1 fw-bold text-white">Write Review</h3>
+                <form action="#"class="shadow1 p-5" >
+                     <div class="form-group pt-4">
+                       <input  type="text"class="form-control "placeholder="Name"style="padding:1rem .5rem ;font-size:1.5rem;">
+                     </div>
+                     <div class="form-group pt-4">
+                        
+                       <input  type="email"class="form-control "placeholder="Email"style="padding:1rem .5rem ;font-size:1.5rem;">
+                     </div>
+                     <div class="form-group pt-4">
+                         <textarea placeholder="Write your Review"  cols="3" rows="3"class="form-control "style="font-size:1.5rem;"></textarea>
+                      </div>
+                     <div class="form-group pt-3">
+                       <a href="#"class="btn1">Submit Review</a>
+                     </div>
+                     
+                </form>
+                 
+            </div>
+         </div>
+       </div>
+ </section>
+
+
+ 
+
+ 
+ 
+
+
+
+<!-- releted Product start -->
+
+<section class="menu">
+  <div class="heading">
+     <h3>Related Item</h3>
+  </div> 
+       <div class="swiper menur-slider">
+             <div class="swiper-wrapper">
+      <div class="menu-food mix fizza" >
+        <div class="image">
+           <img src="./assets/images/blog-img-4.jpg" alt="">
+        </div>
+        <div class="content">
+          <div class="menu-food-name">Burger</div>
+           <h4>Daria Shevtsova</h4>
+           <div class="start">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+           </div>
+           <p>$80.00</p>
+        </div>
+        <div class="menu-cart">
+           <a href="#"class="btn1">Add To Cart</a>
+           <div class="menu-eye">
+              <i class="fas fa-heart"></i>
+              <a href="menudetails.html"> <i class="fas fa-eye"></i></a>
+           </div>
+        </div>
+   </div>
+   <div class="menu-food swiper-slide">
+     <div class="image">
+        <img src="./assets/images/blog-img-1.jpg" alt="">
+     </div>
+     <div class="content">
+       <div class="menu-food-name">Burger</div>
+        <h4>Daria Shevtsova</h4>
+        <div class="start">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+        </div>
+        <p>$80.00</p>
+     </div>
+     <div class="menu-cart">
+        <a href="#"class="btn1">Add To Cart</a>
+        <div class="menu-eye">
+           <i class="fas fa-heart"></i>
+           <i class="fas fa-eye"></i>
+        </div>
+     </div>
+  </div>
+   <div class="menu-food swiper-slide">
+  <div class="image">
+     <img src="./assets/images/blog-img-2.jpg" alt="">
+  </div>
+  <div class="content">
+    <div class="menu-food-name">Burger</div>
+     <h4>Daria Shevtsova</h4>
+     <div class="start">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+     </div>
+     <p>$80.00</p>
+  </div>
+  <div class="menu-cart">
+     <a href="#"class="btn1">Add To Cart</a>
+     <div class="menu-eye">
+        <i class="fas fa-heart"></i>
+        <a href="menudetails.html"> <i class="fas fa-eye"></i></a>
+     </div>
+  </div>
+   </div>
+   <div class="menu-food swiper-slide">
+<div class="image">
+  <img src="./assets/images/blog-img-4.jpg" alt="">
+</div>
+<div class="content">
+ <div class="menu-food-name">Burger</div>
+  <h4>Daria Shevtsova</h4>
+  <div class="start">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+  </div>
+  <p>$80.00</p>
+</div>
+<div class="menu-cart">
+  <a href="#"class="btn1">Add To Cart</a>
+  <div class="menu-eye">
+     <i class="fas fa-heart"></i>
+     <a href="menudetails.html"> <i class="fas fa-eye"></i></a>
+  </div>
+</div>
+   </div>
+  </div>
+
+</div>
+
+
+</section>  
+
+<!-- releted Product end -->
+
+
+ 
+ 
+
+<!-- Main Section ends -->
+
+ 
+
+
+
+<footer>
+  <div class="footer-container">
+       <div class="footer">
+             <a href="#"class="logo">The Swad</a>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Iure, blanditiis dolorum cum dolor laudantium dolores?</p>
+       </div>
+       <div class="footer">
+        <h3>Social Media</h3>
+           <div class="media">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instragram</a>
+              <a href="#">Linkedin</a>
+           </div>
+       </div>
+       <div class="footer">
+        <div class="location">
+           <a href="#">Dhaka</a>
+           <a href="#">Email:farhad@gmail.com</a>
+           <a href="#">Contact</a>
+           <a href="#">01789095644</a>
+        </div>
+    </div>
+  </div>
+</footer>
+<!------scroll top button start------>
+<a href="#menudetails" class="fas fa-angle-up" id="scroll-top"></a>
+<!------scroll top button end------>
+ 
+
+<script src="./assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.0.min.js"
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+  crossorigin="anonymous"></script>
+ <script>
+  const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage);
+var swiper = new Swiper(".menur-slider", {
+   grabCursor:true,
+   loop:true,
+   centeredSlides:true,
+   spaceBetween: 5,
+   autoplay: {
+      delay: 2000,
+    },
+   pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+   },
+   breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      700: {
+        slidesPerView: 3,
+      },
+      1000: {
+        slidesPerView: 4,
+      },
+   },
+});
+
+ </script>
+</body>
+</html>
